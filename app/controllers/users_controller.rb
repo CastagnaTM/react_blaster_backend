@@ -19,11 +19,14 @@ class UsersController < ApplicationController
     end
 
     def login
+        
         user = User.find_by(name: params[:name])
-        if user
+        if user && user.password == params[:password]
+            
             render json: {user: user}
         else
             render json: {errors: "Ya done fucked up!"}
+        end
     end
 
 end
