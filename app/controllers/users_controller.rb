@@ -24,6 +24,7 @@ class UsersController < ApplicationController
             render json: {user: user}
         else
             render json: {errors: "Ya done fucked up!"}
+        end
     end
 
 end
