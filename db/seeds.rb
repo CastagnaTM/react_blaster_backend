@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Level.create(name: 'Level One', background_url: 'levelOneBg.jpg', difficulty: 'easy', song_url: 'Chill.mp3')
+# https://apod.nasa.gov/apod/astropix.html
