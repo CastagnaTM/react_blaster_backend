@@ -6,7 +6,6 @@ class LevelsController < ApplicationController
     end
 
     def select
-        byebug
         level = level.find_by(name: params[:name])
         render json: {level: level}
     end
