@@ -1,10 +1,7 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 
-Level.create(name: 'Level One', background_url: 'levelOneBg.jpg', difficulty: 'easy', song_url: 'Chill.mp3')
+
+Level.create(name: 'Level One', targetString: '0001', css: 'level-one', song_url: 'https://soundcloud.com/jasmin-brooke-1/space-king')
 # https://apod.nasa.gov/apod/astropix.html
+Level.create(name: 'Level Two', targetString: '0011', css: 'level-two', song_url: 'https://soundcloud.com/jasmin-brooke-1/space-king')
+#https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA14872
+Level.create(name: 'Level Three', targetString: '00010011', css: 'level-three', song_url: 'https://soundcloud.com/jasmin-brooke-1/space-king')

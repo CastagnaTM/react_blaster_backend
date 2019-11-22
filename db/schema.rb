@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 2019_11_20_224126) do
 
   create_table "levels", force: :cascade do |t|
     t.string "name"
-    t.string "background_url"
-    t.string "difficulty"
+    t.string "css"
     t.string "song_url"
+    t.string "targetString"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
