@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_11_20_224126) do
     t.string "css"
     t.string "song_url"
     t.string "targetString"
+    t.integer "BPM"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
