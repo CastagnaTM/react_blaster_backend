@@ -6,6 +6,7 @@ class CreateLevels < ActiveRecord::Migration[6.0]
       t.string :song_url
       t.string :targetString
       t.integer :BPM
+      t.integer :goal
 
       t.timestamps
     end
