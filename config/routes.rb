@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   post '/login', to: 'users#login'
   post '/signup', to: 'users#create'
   get '/levels', to: 'levels#index'
-
+  get'/items', to: 'shop_items#index'
 
 end
