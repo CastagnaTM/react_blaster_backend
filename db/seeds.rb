@@ -12,7 +12,7 @@ ShopItem.create(name: 'Regular Health Potion', description: 'Restores Two Health
 
 ShopItem.create(name: 'Big Health Potion', description: 'Restores Full Health.', price: 80)
 
-ShopItem.create(name: "Double Blast-O'-Matic", description: 'Permanently Doubles Your Firing Power. Perfect For Blasting Through Extra Tough Space Debris.', price: 80)
+ShopItem.create(name: "Double Blast-O'-Matic", description: 'Permanently Triples Your Original Firing Power. Perfect For Blasting Through Extra Tough Space Debris.', price: 80)
 
 ShopItem.create(name: 'The RYNO', description: "A Legendary Gadgetron Weapon From Another World. Permanently Multiplies Your Original Firing Power By 5.", price: 200)
 
