@@ -16,4 +16,4 @@ ShopItem.create(name: "Double Blast-O'-Matic", description: 'Permanently Triples
 
 ShopItem.create(name: 'The RYNO', description: "A Legendary Gadgetron Weapon From Another World. Permanently Multiplies Your Original Firing Power By 5.", price: 200)
 
-ShopItem.create(name: 'Armor Upgrade', description: "Permanently Doubles Your Ship's Armor.", price: 100)
+ShopItem.create(name: 'Armor Upgrade', description: "Permanently Doubles Your Ship's Armor.", price: 80)
